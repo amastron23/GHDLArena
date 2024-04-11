@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run --privileged=true -v /home/am2023/Software/GHDLArena/:/work/ -it --name vhdl --entrypoint /bin/bash 1678c9334612
