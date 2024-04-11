@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Script Name: myscript.sh
+
+function usage() {
+    echo "Usage: myscript.sh [start|stop|status]"
+    exit 1
+}
+
+if [ $# -eq 0 ]; then
+    usage
+fi
+
+case "$1" in
+    start)
+        echo "Starting..."
+        ;;
+    stop)
+        echo "Stopping..."
+        ;;
+    status)
+        echo "Status:"
+        ;;
+    *)
+        usage
+        ;;
+esac
+
