@@ -1,15 +1,18 @@
-     use std.textio.all;
+use std.textio.all;
      
-     entity hello_world is
-     end hello_world;
+entity hello_world is
+
+end hello_world;
      
-     architecture behaviour of hello_world is
+architecture behaviour of hello_world is
      begin
-        process
+        
+	process
            variable l : line;
         begin
            write (l, String'("Hello world!"));
            writeline (output, l);
            wait;
         end process;
-     end behaviour;
+
+end behaviour;
