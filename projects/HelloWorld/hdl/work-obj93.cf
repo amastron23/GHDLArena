@@ -1,0 +1,4 @@
+v 4
+file . "HelloWorld.vhd" "728f483f8c6e4b3cd0ae9d9ce3c352ee2144aebb" "20240613163739.141":
+  entity hello_world at 1( 0) + 0 on 11;
+  architecture behaviour of hello_world at 7( 72) + 0 on 12;
